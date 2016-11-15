@@ -1,6 +1,7 @@
 @import "compass/css3";
 @import "bourbon";
 @import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Rancho');
 
 i {
 /*  padding: 20px;*/
@@ -26,6 +27,7 @@ body {
 .navbar-brand {
   border: 1px solid black;
   color: #a7c06f;
+  font-family: 'Rancho', cursive;
 }
 
 .navbar-default .navbar-brand {
@@ -33,7 +35,7 @@ body {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #f5ecec;
+    color: #a7c06f;
 }
 
 .parallax {
@@ -91,12 +93,13 @@ h2 {
 }
 
 .name {
+  font-family: 'Rancho', cursive;
   font-size: 45px;
 /*  background-color: #af8e7d;  */
-  background-color: rgba(167, 192, 111, 0.62);
+/*  background-color: rgba(167, 192, 111, 0.62);*/
   color: #2b1b11;
   border-radius: 10px;
-  margin-top: -100px;
+  margin-top: -125px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -131,7 +134,9 @@ h2 {
 
 .glyphicon-earphone {
   font-size: 55px;
-  color: #2b1b11;
+  color: #a7c06f;
+    background-color: #2b1b11;
+  padding: 10px;
 }
 
 #smpace {
@@ -141,7 +146,10 @@ h2 {
 .glyphicon-envelope {
   font-size: 57px;
   margin-left: 50px;
-  color: #2b1b11;
+  color: #a7c06f;
+  background-color: #2b1b11;
+  padding: 10px;
+/*  color: #2b1b11;*/
 }
 
 #graphic {
