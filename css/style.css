@@ -12,13 +12,14 @@ img {
 
 body {
   font-family: 'Muli', sans-serif;
-  background-image: url('public/images/Z.jpg')
-/*  background-color: lightblue;*/
+  background-image: url('https://i.ytimg.com/vi/3KkPrNv_tg0/maxresdefault.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .navbar {
   color: white;
-  background-color: teal;
+  background-color: #2b1b11;
 
 }
 
@@ -91,6 +92,15 @@ h2 {
 
 .name {
   font-size: 45px;
+  background-color: #af8e7d;
+  color: white;
+  border-radius: 10px;
+}
+
+#company {
+/*  background-color: #af8e7d;*/
+  font-size: 30px;
+  color: white;
 }
 
 .intro-text {
@@ -110,7 +120,7 @@ h2 {
   display: inline-block;
 }
 
-#whitespace {
+.whitespace {
   height: 17vh;
 }
 
